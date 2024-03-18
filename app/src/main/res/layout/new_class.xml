@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/newClassName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Class Name"/>
+
+    <EditText
+        android:id="@+id/newClassProfessor"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/newClassName"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Professor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <EditText
+        android:id="@+id/newClassSection"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/newClassProfessor"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Class Section"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <EditText
+        android:id="@+id/newClassBuilding"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/newClassSection"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Building"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <EditText
+        android:id="@+id/newClassRoomNumber"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/newClassBuilding"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Room Number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <EditText
+        android:id="@+id/newClassTime"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/newClassRoomNumber"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Time"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/newClassDates"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/newClassTime"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Class Dates"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/newClassButtonCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newClassDates"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/darker_gray"/>
+
+
+</RelativeLayout>

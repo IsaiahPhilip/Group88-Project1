@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="assignment_sorting_items">
+        <item>Due Date</item>
+        <item>Completed</item>
+        <item>Course</item>
+    </string-array>
+
+    <string-array name="task_sorting_items">
+        <item>Due Date</item>
+        <item>Completed</item>
+    </string-array>
+
+</resources>
